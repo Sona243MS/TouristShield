@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "TouristShield",
+    "slug": "touristshield",
+    "platforms": ["android", "ios"],
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect to smart bands.",
+        "NSLocationWhenInUseUsageDescription": "This app needs location access for BLE scanning."
+      }
+    }
+  }
+}
